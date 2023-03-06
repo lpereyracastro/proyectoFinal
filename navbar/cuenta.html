@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="p-3 mb-2 bg-secondary text-white">
+    <h1 class="display-4" style="color: #70e6a1;">AAPROVerano</h1>
+    <h2 class="display-6">Contactanos</h2>
+    <h3 class="text-muted">Rellenar el formulario nos facilita contactarnos con usted.</h3><br>
+    <form class="mb-3" action="">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+            <input type="text" placeholder="Nombre" class="form-control" id="formGroupExampleInput" rows="1" maxlength="20">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Apellido</label>
+            <input type="text" placeholder="Apellido" class="form-control" id="formGroupExampleInput" rows="1" maxlength="20">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">DNI</label>
+            <input type="text" placeholder="DNI" class="form-control" id="formGroupExampleInput" rows="1" maxlength="8">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nombre@ejemplo.com">
+            <small id="emailHelp" class="form-text text-muted">No compartiremos su dirección de email con nadie.</small>
+        </div><br>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Dirección</label>
+            <input type="text" placeholder="Domicilio" class="form-control" id="formGroupExampleInput" rows="1" maxlength="30">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Código Postal</label>
+            <input type="text" placeholder="Código Postal" class="form-control" id="formGroupExampleInput" rows="1" maxlength="8">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Nacionalidad</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option value="arg">Argentina</option>
+                <option value="bol">Bolivia</option>
+                <option value="br">Brasil</option>
+                <option value="ch">Chile</option>
+                <option value="uru">Uruguay</option>
+                <option value="par">Paraguay</option>
+            </select>
+        </div><br>
+        <h6>Indique sexo</h6>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Masculino
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Femenino
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Prefiero no decirlo
+            </label>
+        </div><br>
+        <button type="submit" class="btn btn-success">Enviar</button>
+        <button type="reset" class="btn btn-warning">Cancelar</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous"></script>
+</body>
+</html>
